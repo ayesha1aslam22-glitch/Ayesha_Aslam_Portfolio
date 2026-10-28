@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ayesha Aslam's web development portfolio, projects, skills, and contact information.">
+  <title>Ayesha Aslam | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">Ayesha<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-contact" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">ASPIRING WEB DEVELOPER</p>
+        <h1>Hi, I'm <span>Ayesha Aslam</span></h1>
+        <h2>I create clean and responsive websites.</h2>
+        <p class="hero-text">I'm learning web development and building projects with HTML, CSS, JavaScript, and Bootstrap. Welcome to my portfolio!</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View My Projects</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Portfolio introduction card">
+        <div class="avatar">AA</div>
+        <p class="card-label">CURRENTLY LEARNING</p>
+        <h3>Web Development</h3>
+        <div class="tech-pills"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span></div>
+        <p class="card-note">Learning, practicing, and improving one project at a time.</p>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2 class="section-title">Turning ideas into websites</h2>
+        <p class="section-copy">I'm an aspiring web developer focused on learning the fundamentals of front-end development. I enjoy creating attractive layouts, practicing responsive design, and improving my coding skills through hands-on projects.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">WHAT I'M LEARNING</p>
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>HTML5</h3><p>Building structured and accessible web pages.</p></article>
+        <article class="skill-card"><div class="skill-icon">✦</div><h3>CSS3</h3><p>Styling layouts, colors, and responsive designs.</p></article>
+        <article class="skill-card"><div class="skill-icon">{ }</div><h3>JavaScript</h3><p>Learning interactivity and basic web functionality.</p></article>
+        <article class="skill-card"><div class="skill-icon">▦</div><h3>Bootstrap</h3><p>Creating responsive pages with reusable components.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="projects">
+      <div class="container">
+        <p class="eyebrow">MY WORK</p>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-copy">Here is a project I've worked on. Add more projects as you build them.</p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-art beach-art"><span>BEAUTY OF BEACHES</span></div>
+            <div class="project-body">
+              <p class="project-type">HTML · CSS · JavaScript</p>
+              <h3>Beauty of Beaches</h3>
+              <p>A beach-themed website project showcasing beautiful destinations and a travel-inspired design.</p>
+              <a class="text-link" href="https://github.com/ayesha1aslam22-glitch/beautifulbeaches" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+            </div>
+          </article>
+          <article class="project-card project-placeholder">
+            <div class="placeholder-art"><span>+</span></div>
+            <div class="project-body">
+              <p class="project-type">COMING SOON</p>
+              <h3>Next Project</h3>
+              <p>I'm working on new ideas and will add another project here soon.</p>
+              <span class="text-link muted-link">More projects coming soon</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2 class="section-title">Have a project in mind?</h2>
+      <p class="section-copy">I'd be happy to connect and keep learning with other people in tech.</p>
+      <div class="contact-actions">
+        <a class="button primary" href="https://github.com/ayesha1aslam22-glitch" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+        <a class="button secondary" href="https://github.com/ayesha1aslam22-glitch/beautifulbeaches" target="_blank" rel="noopener noreferrer">My Project Repository</a>
+      </div>
+      <p class="contact-note">Tip: You can add your LinkedIn profile and professional email here when you're ready.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Ayesha Aslam. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
